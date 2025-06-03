@@ -3,6 +3,7 @@
     ---primary-color: #9abfe2;
     ---secundary-color: #5a7691;
 }
+
 h1 {
     margin: 0;
 }
@@ -31,18 +32,40 @@ a {
 }
 .header-1, .header-2 {
     height: 100%;
-    width: 40%;
     align-items: center;
     align-content: center;
-    padding: 0 60px;
+
 }
 .logo-header {
     height: 80%;
 }
-.header-2 {
-    display: flex;
-    justify-content: space-between;
+.header-1 {
+    padding-left: 60px;
+    width: 40%;
 }
+.header-2 {
+    padding-right: 20px;
+    display: flex;
+    width: 60%;
+}
+
+.header-2-1 {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-2-2 {
+    width: 30%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-left: var(---secundary-color) 2px solid;
+}
+.redes-link {
+    height: 40px;
+}
+
 .links-header {
     padding: 15px 20px;
     border-radius: 10px;
